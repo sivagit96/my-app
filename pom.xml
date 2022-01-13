@@ -8,16 +8,13 @@
 	<name>my-app</name>
 	
 	<!-- Demo on Github Webhooks-->
-
 	<url>http://maven.apache.org</url>
-
 	<dependencies>
 		<dependency>
 		    <groupId>org.apache.poi</groupId>
 		    <artifactId>poi</artifactId>
-		    <version>3.7</version>
+		    <version>3.8</version>
 		</dependency>
-
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
@@ -49,8 +46,10 @@
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.6.1</version>
+            <version>3.8.4</version>
             <configuration>
+                <source>1.8</source>
+               <target>1.8</target>
                 <source>1.7</source>
                 <target>1.7</target>
             </configuration>
